@@ -1,0 +1,38 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+:root {
+  --background-color: #1e3129;
+  --primary-text-color:#2faca2;
+  --card-bg-color: #a22b61;
+}
+.bady {
+  background-color: var(--background-color);
+  overflow-x: hidden;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+  background-color: var(--background-color);
+}
+
+.heading-1 {
+  color: var(--primary-text-color);
+}
+.main {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  padding: 8rem 2rem 2rem 3rem;
+}
